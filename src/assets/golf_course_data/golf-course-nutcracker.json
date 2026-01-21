@@ -1,0 +1,1055 @@
+{
+  "robot": false,
+  "path": "\/bluegolf\/app\/course\/nutcracker\/",
+  "allowgps": true,
+  "allowShots": false,
+  "course": {
+    "nameAmplitude": "Nutcracker Golf Club",
+    "selectedteeid": "aa829371-6730-468a-9539-23506e0b3b57",
+    "tees": [
+      {
+        "par": 72,
+        "side": 0,
+        "color": "black",
+        "distancethishole": 405,
+        "iscustom": false,
+        "rating": "73.3",
+        "tourneyuuid": null,
+        "slope": 124,
+        "type": "MEN",
+        "uuid": "aa829371-6730-468a-9539-23506e0b3b57",
+        "hasHoleAllocations": true,
+        "unit": "yds",
+        "extra": "6769 yds (M-73.3\/124)",
+        "holeinfo": [
+          {
+            "par": 4,
+            "distance": 405,
+            "hcap": 7
+          },
+          {
+            "par": 4,
+            "distance": 347,
+            "hcap": 9
+          },
+          {
+            "par": 3,
+            "distance": 181,
+            "hcap": 15
+          },
+          {
+            "par": 4,
+            "distance": 396,
+            "hcap": 3
+          },
+          {
+            "par": 5,
+            "distance": 530,
+            "hcap": 11
+          },
+          {
+            "par": 4,
+            "distance": 432,
+            "hcap": 5
+          },
+          {
+            "par": 3,
+            "distance": 160,
+            "hcap": 13
+          },
+          {
+            "par": 4,
+            "distance": 412,
+            "hcap": 1
+          },
+          {
+            "par": 5,
+            "distance": 482,
+            "hcap": 17
+          },
+          {
+            "par": 4,
+            "distance": 407,
+            "hcap": 12
+          },
+          {
+            "par": 5,
+            "distance": 511,
+            "hcap": 18
+          },
+          {
+            "par": 4,
+            "distance": 383,
+            "hcap": 8
+          },
+          {
+            "par": 3,
+            "distance": 220,
+            "hcap": 4
+          },
+          {
+            "par": 4,
+            "distance": 401,
+            "hcap": 10
+          },
+          {
+            "par": 4,
+            "distance": 428,
+            "hcap": 2
+          },
+          {
+            "par": 5,
+            "distance": 492,
+            "hcap": 14
+          },
+          {
+            "par": 3,
+            "distance": 152,
+            "hcap": 16
+          },
+          {
+            "par": 4,
+            "distance": 430,
+            "hcap": 6
+          }
+        ],
+        "name": "Black",
+        "isdefault": true,
+        "isarchived": false,
+        "hasWHSId": true,
+        "sport": "golf",
+        "holes": [
+          {
+            "par": 4,
+            "distance": 405,
+            "handicap": 7
+          },
+          {
+            "par": 4,
+            "distance": 347,
+            "handicap": 9
+          },
+          {
+            "par": 3,
+            "distance": 181,
+            "handicap": 15
+          },
+          {
+            "par": 4,
+            "distance": 396,
+            "handicap": 3
+          },
+          {
+            "par": 5,
+            "distance": 530,
+            "handicap": 11
+          },
+          {
+            "par": 4,
+            "distance": 432,
+            "handicap": 5
+          },
+          {
+            "par": 3,
+            "distance": 160,
+            "handicap": 13
+          },
+          {
+            "par": 4,
+            "distance": 412,
+            "handicap": 1
+          },
+          {
+            "par": 5,
+            "distance": 482,
+            "handicap": 17
+          },
+          {
+            "par": 4,
+            "distance": 407,
+            "handicap": 12
+          },
+          {
+            "par": 5,
+            "distance": 511,
+            "handicap": 18
+          },
+          {
+            "par": 4,
+            "distance": 383,
+            "handicap": 8
+          },
+          {
+            "par": 3,
+            "distance": 220,
+            "handicap": 4
+          },
+          {
+            "par": 4,
+            "distance": 401,
+            "handicap": 10
+          },
+          {
+            "par": 4,
+            "distance": 428,
+            "handicap": 2
+          },
+          {
+            "par": 5,
+            "distance": 492,
+            "handicap": 14
+          },
+          {
+            "par": 3,
+            "distance": 152,
+            "handicap": 16
+          },
+          {
+            "par": 4,
+            "distance": 430,
+            "handicap": 6
+          }
+        ]
+      },
+      {
+        "par": 72,
+        "side": 0,
+        "color": "white",
+        "distancethishole": 358,
+        "iscustom": false,
+        "rating": "70.5",
+        "tourneyuuid": null,
+        "slope": 121,
+        "type": "MEN",
+        "uuid": "6beea92e-9112-4882-8ecc-60e6f71781de",
+        "hasHoleAllocations": true,
+        "unit": "yds",
+        "extra": "6164 yds (M-70.5\/121)",
+        "holeinfo": [
+          {
+            "par": 4,
+            "distance": 358,
+            "hcap": 7
+          },
+          {
+            "par": 4,
+            "distance": 339,
+            "hcap": 9
+          },
+          {
+            "par": 3,
+            "distance": 160,
+            "hcap": 15
+          },
+          {
+            "par": 4,
+            "distance": 371,
+            "hcap": 3
+          },
+          {
+            "par": 5,
+            "distance": 488,
+            "hcap": 11
+          },
+          {
+            "par": 4,
+            "distance": 402,
+            "hcap": 5
+          },
+          {
+            "par": 3,
+            "distance": 135,
+            "hcap": 13
+          },
+          {
+            "par": 4,
+            "distance": 385,
+            "hcap": 1
+          },
+          {
+            "par": 5,
+            "distance": 455,
+            "hcap": 17
+          },
+          {
+            "par": 4,
+            "distance": 345,
+            "hcap": 12
+          },
+          {
+            "par": 5,
+            "distance": 477,
+            "hcap": 18
+          },
+          {
+            "par": 4,
+            "distance": 321,
+            "hcap": 8
+          },
+          {
+            "par": 3,
+            "distance": 191,
+            "hcap": 4
+          },
+          {
+            "par": 4,
+            "distance": 375,
+            "hcap": 10
+          },
+          {
+            "par": 4,
+            "distance": 383,
+            "hcap": 2
+          },
+          {
+            "par": 5,
+            "distance": 459,
+            "hcap": 14
+          },
+          {
+            "par": 3,
+            "distance": 140,
+            "hcap": 16
+          },
+          {
+            "par": 4,
+            "distance": 380,
+            "hcap": 6
+          }
+        ],
+        "name": "White",
+        "isdefault": false,
+        "isarchived": false,
+        "hasWHSId": true,
+        "sport": "golf",
+        "holes": [
+          {
+            "par": 4,
+            "distance": 358,
+            "handicap": 7
+          },
+          {
+            "par": 4,
+            "distance": 339,
+            "handicap": 9
+          },
+          {
+            "par": 3,
+            "distance": 160,
+            "handicap": 15
+          },
+          {
+            "par": 4,
+            "distance": 371,
+            "handicap": 3
+          },
+          {
+            "par": 5,
+            "distance": 488,
+            "handicap": 11
+          },
+          {
+            "par": 4,
+            "distance": 402,
+            "handicap": 5
+          },
+          {
+            "par": 3,
+            "distance": 135,
+            "handicap": 13
+          },
+          {
+            "par": 4,
+            "distance": 385,
+            "handicap": 1
+          },
+          {
+            "par": 5,
+            "distance": 455,
+            "handicap": 17
+          },
+          {
+            "par": 4,
+            "distance": 345,
+            "handicap": 12
+          },
+          {
+            "par": 5,
+            "distance": 477,
+            "handicap": 18
+          },
+          {
+            "par": 4,
+            "distance": 321,
+            "handicap": 8
+          },
+          {
+            "par": 3,
+            "distance": 191,
+            "handicap": 4
+          },
+          {
+            "par": 4,
+            "distance": 375,
+            "handicap": 10
+          },
+          {
+            "par": 4,
+            "distance": 383,
+            "handicap": 2
+          },
+          {
+            "par": 5,
+            "distance": 459,
+            "handicap": 14
+          },
+          {
+            "par": 3,
+            "distance": 140,
+            "handicap": 16
+          },
+          {
+            "par": 4,
+            "distance": 380,
+            "handicap": 6
+          }
+        ]
+      },
+      {
+        "par": 72,
+        "side": 0,
+        "color": "white-gold",
+        "distancethishole": 358,
+        "iscustom": false,
+        "rating": "69.4",
+        "tourneyuuid": null,
+        "slope": 120,
+        "type": "MEN",
+        "uuid": "768c5188-554b-4bf5-90ae-6c3224a6fd7f",
+        "hasHoleAllocations": true,
+        "unit": "yds",
+        "extra": "5944 yds (M-69.4\/120)",
+        "holeinfo": [
+          {
+            "par": 4,
+            "distance": 358,
+            "hcap": 7
+          },
+          {
+            "par": 4,
+            "distance": 339,
+            "hcap": 9
+          },
+          {
+            "par": 3,
+            "distance": 150,
+            "hcap": 15
+          },
+          {
+            "par": 4,
+            "distance": 340,
+            "hcap": 3
+          },
+          {
+            "par": 5,
+            "distance": 488,
+            "hcap": 11
+          },
+          {
+            "par": 4,
+            "distance": 351,
+            "hcap": 5
+          },
+          {
+            "par": 3,
+            "distance": 135,
+            "hcap": 13
+          },
+          {
+            "par": 4,
+            "distance": 350,
+            "hcap": 1
+          },
+          {
+            "par": 5,
+            "distance": 455,
+            "hcap": 17
+          },
+          {
+            "par": 4,
+            "distance": 345,
+            "hcap": 12
+          },
+          {
+            "par": 5,
+            "distance": 477,
+            "hcap": 18
+          },
+          {
+            "par": 4,
+            "distance": 321,
+            "hcap": 8
+          },
+          {
+            "par": 3,
+            "distance": 181,
+            "hcap": 4
+          },
+          {
+            "par": 4,
+            "distance": 375,
+            "hcap": 10
+          },
+          {
+            "par": 4,
+            "distance": 343,
+            "hcap": 2
+          },
+          {
+            "par": 5,
+            "distance": 459,
+            "hcap": 14
+          },
+          {
+            "par": 3,
+            "distance": 140,
+            "hcap": 16
+          },
+          {
+            "par": 4,
+            "distance": 337,
+            "hcap": 6
+          }
+        ],
+        "name": "White\/Gold Combo",
+        "isdefault": false,
+        "isarchived": false,
+        "hasWHSId": true,
+        "sport": "golf",
+        "holes": [
+          {
+            "par": 4,
+            "distance": 358,
+            "handicap": 7
+          },
+          {
+            "par": 4,
+            "distance": 339,
+            "handicap": 9
+          },
+          {
+            "par": 3,
+            "distance": 150,
+            "handicap": 15
+          },
+          {
+            "par": 4,
+            "distance": 340,
+            "handicap": 3
+          },
+          {
+            "par": 5,
+            "distance": 488,
+            "handicap": 11
+          },
+          {
+            "par": 4,
+            "distance": 351,
+            "handicap": 5
+          },
+          {
+            "par": 3,
+            "distance": 135,
+            "handicap": 13
+          },
+          {
+            "par": 4,
+            "distance": 350,
+            "handicap": 1
+          },
+          {
+            "par": 5,
+            "distance": 455,
+            "handicap": 17
+          },
+          {
+            "par": 4,
+            "distance": 345,
+            "handicap": 12
+          },
+          {
+            "par": 5,
+            "distance": 477,
+            "handicap": 18
+          },
+          {
+            "par": 4,
+            "distance": 321,
+            "handicap": 8
+          },
+          {
+            "par": 3,
+            "distance": 181,
+            "handicap": 4
+          },
+          {
+            "par": 4,
+            "distance": 375,
+            "handicap": 10
+          },
+          {
+            "par": 4,
+            "distance": 343,
+            "handicap": 2
+          },
+          {
+            "par": 5,
+            "distance": 459,
+            "handicap": 14
+          },
+          {
+            "par": 3,
+            "distance": 140,
+            "handicap": 16
+          },
+          {
+            "par": 4,
+            "distance": 337,
+            "handicap": 6
+          }
+        ]
+      },
+      {
+        "par": 72,
+        "side": 0,
+        "color": "gold",
+        "distancethishole": 318,
+        "iscustom": false,
+        "rating": "67.1",
+        "tourneyuuid": null,
+        "slope": 113,
+        "type": "MEN",
+        "uuid": "66ab7c04-f9b1-46f2-9df9-6d41ff6047bc",
+        "hasHoleAllocations": true,
+        "unit": "yds",
+        "extra": "5525 yds (M-67.1\/113)",
+        "holeinfo": [
+          {
+            "par": 4,
+            "distance": 318,
+            "hcap": 7
+          },
+          {
+            "par": 4,
+            "distance": 323,
+            "hcap": 9
+          },
+          {
+            "par": 3,
+            "distance": 117,
+            "hcap": 15
+          },
+          {
+            "par": 4,
+            "distance": 340,
+            "hcap": 3
+          },
+          {
+            "par": 5,
+            "distance": 443,
+            "hcap": 11
+          },
+          {
+            "par": 4,
+            "distance": 351,
+            "hcap": 5
+          },
+          {
+            "par": 3,
+            "distance": 118,
+            "hcap": 13
+          },
+          {
+            "par": 4,
+            "distance": 350,
+            "hcap": 1
+          },
+          {
+            "par": 5,
+            "distance": 420,
+            "hcap": 17
+          },
+          {
+            "par": 4,
+            "distance": 326,
+            "hcap": 12
+          },
+          {
+            "par": 5,
+            "distance": 410,
+            "hcap": 18
+          },
+          {
+            "par": 4,
+            "distance": 301,
+            "hcap": 8
+          },
+          {
+            "par": 3,
+            "distance": 172,
+            "hcap": 4
+          },
+          {
+            "par": 4,
+            "distance": 329,
+            "hcap": 10
+          },
+          {
+            "par": 4,
+            "distance": 343,
+            "hcap": 2
+          },
+          {
+            "par": 5,
+            "distance": 409,
+            "hcap": 14
+          },
+          {
+            "par": 3,
+            "distance": 118,
+            "hcap": 16
+          },
+          {
+            "par": 4,
+            "distance": 337,
+            "hcap": 6
+          }
+        ],
+        "name": "Gold",
+        "isdefault": false,
+        "isarchived": false,
+        "hasWHSId": true,
+        "sport": "golf",
+        "holes": [
+          {
+            "par": 4,
+            "distance": 318,
+            "handicap": 7
+          },
+          {
+            "par": 4,
+            "distance": 323,
+            "handicap": 9
+          },
+          {
+            "par": 3,
+            "distance": 117,
+            "handicap": 15
+          },
+          {
+            "par": 4,
+            "distance": 340,
+            "handicap": 3
+          },
+          {
+            "par": 5,
+            "distance": 443,
+            "handicap": 11
+          },
+          {
+            "par": 4,
+            "distance": 351,
+            "handicap": 5
+          },
+          {
+            "par": 3,
+            "distance": 118,
+            "handicap": 13
+          },
+          {
+            "par": 4,
+            "distance": 350,
+            "handicap": 1
+          },
+          {
+            "par": 5,
+            "distance": 420,
+            "handicap": 17
+          },
+          {
+            "par": 4,
+            "distance": 326,
+            "handicap": 12
+          },
+          {
+            "par": 5,
+            "distance": 410,
+            "handicap": 18
+          },
+          {
+            "par": 4,
+            "distance": 301,
+            "handicap": 8
+          },
+          {
+            "par": 3,
+            "distance": 172,
+            "handicap": 4
+          },
+          {
+            "par": 4,
+            "distance": 329,
+            "handicap": 10
+          },
+          {
+            "par": 4,
+            "distance": 343,
+            "handicap": 2
+          },
+          {
+            "par": 5,
+            "distance": 409,
+            "handicap": 14
+          },
+          {
+            "par": 3,
+            "distance": 118,
+            "handicap": 16
+          },
+          {
+            "par": 4,
+            "distance": 337,
+            "handicap": 6
+          }
+        ]
+      },
+      {
+        "par": 72,
+        "side": 0,
+        "color": "red",
+        "distancethishole": 287,
+        "iscustom": false,
+        "rating": "64.9",
+        "tourneyuuid": null,
+        "slope": 109,
+        "type": "MEN",
+        "uuid": "7ab6b88b-3a33-4a8b-b75f-e8bcb52c5c6a",
+        "hasHoleAllocations": true,
+        "unit": "yds",
+        "extra": "5044 yds (M-64.9\/109)",
+        "holeinfo": [
+          {
+            "par": 4,
+            "distance": 287,
+            "hcap": 7
+          },
+          {
+            "par": 4,
+            "distance": 272,
+            "hcap": 9
+          },
+          {
+            "par": 3,
+            "distance": 100,
+            "hcap": 15
+          },
+          {
+            "par": 4,
+            "distance": 312,
+            "hcap": 3
+          },
+          {
+            "par": 5,
+            "distance": 409,
+            "hcap": 11
+          },
+          {
+            "par": 4,
+            "distance": 313,
+            "hcap": 5
+          },
+          {
+            "par": 3,
+            "distance": 104,
+            "hcap": 13
+          },
+          {
+            "par": 4,
+            "distance": 323,
+            "hcap": 1
+          },
+          {
+            "par": 5,
+            "distance": 388,
+            "hcap": 17
+          },
+          {
+            "par": 4,
+            "distance": 293,
+            "hcap": 12
+          },
+          {
+            "par": 5,
+            "distance": 379,
+            "hcap": 18
+          },
+          {
+            "par": 4,
+            "distance": 293,
+            "hcap": 8
+          },
+          {
+            "par": 3,
+            "distance": 166,
+            "hcap": 4
+          },
+          {
+            "par": 4,
+            "distance": 308,
+            "hcap": 10
+          },
+          {
+            "par": 4,
+            "distance": 310,
+            "hcap": 2
+          },
+          {
+            "par": 5,
+            "distance": 377,
+            "hcap": 14
+          },
+          {
+            "par": 3,
+            "distance": 102,
+            "hcap": 16
+          },
+          {
+            "par": 4,
+            "distance": 308,
+            "hcap": 6
+          }
+        ],
+        "name": "Red",
+        "isdefault": false,
+        "isarchived": false,
+        "hasWHSId": true,
+        "sport": "golf",
+        "holes": [
+          {
+            "par": 4,
+            "distance": 287,
+            "handicap": 7
+          },
+          {
+            "par": 4,
+            "distance": 272,
+            "handicap": 9
+          },
+          {
+            "par": 3,
+            "distance": 100,
+            "handicap": 15
+          },
+          {
+            "par": 4,
+            "distance": 312,
+            "handicap": 3
+          },
+          {
+            "par": 5,
+            "distance": 409,
+            "handicap": 11
+          },
+          {
+            "par": 4,
+            "distance": 313,
+            "handicap": 5
+          },
+          {
+            "par": 3,
+            "distance": 104,
+            "handicap": 13
+          },
+          {
+            "par": 4,
+            "distance": 323,
+            "handicap": 1
+          },
+          {
+            "par": 5,
+            "distance": 388,
+            "handicap": 17
+          },
+          {
+            "par": 4,
+            "distance": 293,
+            "handicap": 12
+          },
+          {
+            "par": 5,
+            "distance": 379,
+            "handicap": 18
+          },
+          {
+            "par": 4,
+            "distance": 293,
+            "handicap": 8
+          },
+          {
+            "par": 3,
+            "distance": 166,
+            "handicap": 4
+          },
+          {
+            "par": 4,
+            "distance": 308,
+            "handicap": 10
+          },
+          {
+            "par": 4,
+            "distance": 310,
+            "handicap": 2
+          },
+          {
+            "par": 5,
+            "distance": 377,
+            "handicap": 14
+          },
+          {
+            "par": 3,
+            "distance": 102,
+            "handicap": 16
+          },
+          {
+            "par": 4,
+            "distance": 308,
+            "handicap": 6
+          }
+        ]
+      }
+    ],
+    "handle": "nutcracker",
+    "uuid": "3a1ce874-48fc-4c52-8052-01fe2bbb939b",
+    "cover": "https:\/\/logos.bluegolf.com\/nutcracker\/cover.jpg",
+    "path": "\/api\/app\/course\/nutcracker\/",
+    "unit": "Yards",
+    "profilePhoto": "https:\/\/logos.bluegolf.com\/nutcracker\/profile.png",
+    "tee": {
+      "par": 72,
+      "color": "black",
+      "extra": "6769 yds (M-73.3\/124)",
+      "name": "Black",
+      "rating": "73.3",
+      "slope": 124,
+      "uuid": "aa829371-6730-468a-9539-23506e0b3b57",
+      "sport": "golf"
+    },
+    "name": "Nutcracker GC",
+    "hasAerial": true,
+    "abbr": "Nutcracker",
+    "selectedtee": "Black"
+  },
+  "isHcapPosted": false,
+  "showLoginPrompt": true,
+  "holes": []
+}

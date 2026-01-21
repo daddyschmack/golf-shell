@@ -1,12 +1,25 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { JsonPipe } from '@angular/common';
+import { UserProfileService } from 'shared-data';
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, JsonPipe],
+  standalone: true,
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('golf-shell');
+  protected userService = inject(UserProfileService);
+  protected readonly title = 'golf-shell'
+
+  updateHandicap() {
+    this.userService.updateProfile({
+      handicap: 10,
+      defaultTees: 'Blue'
+    });
+  }
 }

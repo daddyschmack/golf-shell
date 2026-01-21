@@ -1,0 +1,15 @@
+<div class="dashboard-container">
+  <h1>Clubhouse Dashboard</h1>
+
+  @if (user(); as u) {
+    <div class="card">
+      <h2>Welcome back, {{ u.displayName }}!</h2>
+      <p>Handicap: {{ u.handicap || 'Not set' }}</p>
+      
+      <a routerLink="/play" class="btn-primary">⛳ Start New Round</a>
+    </div>
+  } @else {
+    <p>Please log in to view your stats.</p>
+    <button (click)="userService.login()">Login</button>
+  }
+</div>
