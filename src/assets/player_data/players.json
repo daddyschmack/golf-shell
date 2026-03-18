@@ -1,0 +1,142 @@
+[
+  {
+    "id": "p_mwoods",
+    "name": "Michael Woods",
+    "email": "mwoods@example.com",
+    "handicapIndex": 2.1,
+    "handicap": 2
+  },
+  {
+    "id": "p_dirons",
+    "name": "David Irons",
+    "email": "dirons@example.com",
+    "handicapIndex": 5.4,
+    "handicap": 5
+  },
+  {
+    "id": "p_sputter",
+    "name": "Sarah Putter",
+    "email": "sputter@example.com",
+    "handicapIndex": 18.2,
+    "handicap": 18
+  },
+  {
+    "id": "p_cwedge",
+    "name": "Chris Wedge",
+    "email": "cwedge@example.com",
+    "handicapIndex": 9.8,
+    "handicap": 10
+  },
+  {
+    "id": "p_tbunker",
+    "name": "Tom Bunker",
+    "email": "tbunker@example.com",
+    "handicapIndex": 14.5,
+    "handicap": 15
+  },
+  {
+    "id": "p_jgreen",
+    "name": "Jerry Green",
+    "email": "jgreen@example.com",
+    "handicapIndex": 7.3,
+    "handicap": 7
+  },
+  {
+    "id": "p_khazard",
+    "name": "Kevin Hazard",
+    "email": "khazard@example.com",
+    "handicapIndex": 22.1,
+    "handicap": 22
+  },
+  {
+    "id": "p_lfairway",
+    "name": "Lisa Fairway",
+    "email": "lfairway@example.com",
+    "handicapIndex": 12.6,
+    "handicap": 13
+  },
+  {
+    "id": "p_mdivot",
+    "name": "Mark Divot",
+    "email": "mdivot@example.com",
+    "handicapIndex": 16.9,
+    "handicap": 17
+  },
+  {
+    "id": "p_nbirdie",
+    "name": "Nancy Birdie",
+    "email": "nbirdie@example.com",
+    "handicapIndex": 28.4,
+    "handicap": 28
+  },
+  {
+    "id": "p_seagle",
+    "name": "Steve Eagle",
+    "email": "seagle@example.com",
+    "handicapIndex": 0.5,
+    "handicap": 1
+  },
+  {
+    "id": "p_kbogey",
+    "name": "Karen Bogey",
+    "email": "kbogey@example.com",
+    "handicapIndex": 19.3,
+    "handicap": 19
+  },
+  {
+    "id": "p_brough",
+    "name": "Brian Rough",
+    "email": "brough@example.com",
+    "handicapIndex": 11.2,
+    "handicap": 11
+  },
+  {
+    "id": "p_jslice",
+    "name": "Jason Slice",
+    "email": "jslice@example.com",
+    "handicapIndex": 25.7,
+    "handicap": 26
+  },
+  {
+    "id": "p_ehook",
+    "name": "Eric Hook",
+    "email": "ehook@example.com",
+    "handicapIndex": 8.9,
+    "handicap": 9
+  },
+  {
+    "id": "p_jchip",
+    "name": "Jessica Chip",
+    "email": "jchip@example.com",
+    "handicapIndex": 15.1,
+    "handicap": 15
+  },
+  {
+    "id": "p_rlinks",
+    "name": "Ryan Links",
+    "email": "rlinks@example.com",
+    "handicapIndex": 3.4,
+    "handicap": 3
+  },
+  {
+    "id": "p_gfore",
+    "name": "Gary Fore",
+    "email": "gfore@example.com",
+    "handicapIndex": 30.0,
+    "handicap": 30
+  },
+  {
+    "id": "p_aswing",
+    "name": "Amanda Swing",
+    "email": "aswing@example.com",
+    "handicapIndex": 13.7,
+    "handicap": 14
+  },
+  {
+    "id": "p_ppar",
+    "name": "Patrick Par",
+    "email": "ppar@example.com",
+    "handicapIndex": 6.2,
+    "handicap": 6
+  }
+]

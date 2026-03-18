@@ -1,0 +1,2602 @@
+{
+    "Facility": {
+        "FacilityId": 3996,
+        "FacilityStatus": "Active",
+        "FacilityName": "Nutcracker Golf Club",
+        "FacilityNumber": "57147",
+        "GolfAssociationId": 57,
+        "GeoLocationFormattedAddress": "9500 Orchard Dr, Granbury, TX 76049, USA",
+        "GeoLocationLongitude": -97.6734931,
+        "GeoLocationLatitude": 32.3618257
+    },
+    "Season": {
+        "SeasonName": "All Year Round",
+        "SeasonStartDate": "01/01",
+        "SeasonEndDate": "12/31",
+        "IsAllYear": true
+    },
+    "TeeSets": [
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 70.9,
+                    "SlopeRating": 124,
+                    "BogeyRating": 93.9
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 35.4,
+                    "SlopeRating": 122,
+                    "BogeyRating": 46.7
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 35.5,
+                    "SlopeRating": 126,
+                    "BogeyRating": 47.2
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033070,
+                    "Length": 358,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033071,
+                    "Length": 339,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033072,
+                    "Length": 150,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033073,
+                    "Length": 371,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033074,
+                    "Length": 488,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033075,
+                    "Length": 402,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033076,
+                    "Length": 135,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033077,
+                    "Length": 385,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033078,
+                    "Length": 455,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033079,
+                    "Length": 345,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033080,
+                    "Length": 477,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033081,
+                    "Length": 321,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033082,
+                    "Length": 198,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033083,
+                    "Length": 375,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033084,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033085,
+                    "Length": 459,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033086,
+                    "Length": 140,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033087,
+                    "Length": 380,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 637317,
+            "TeeSetRatingName": "White",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 6161,
+            "TotalMeters": 5634,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 72.8,
+                    "SlopeRating": 126,
+                    "BogeyRating": 102.4
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 36.5,
+                    "SlopeRating": 128,
+                    "BogeyRating": 51.6
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 36.3,
+                    "SlopeRating": 123,
+                    "BogeyRating": 50.8
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033169,
+                    "Length": 318,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033170,
+                    "Length": 323,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033171,
+                    "Length": 117,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033172,
+                    "Length": 340,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033173,
+                    "Length": 443,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033174,
+                    "Length": 351,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033175,
+                    "Length": 118,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033176,
+                    "Length": 350,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033177,
+                    "Length": 420,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033168,
+                    "Length": 326,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033167,
+                    "Length": 410,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033166,
+                    "Length": 301,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033165,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033164,
+                    "Length": 329,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033163,
+                    "Length": 343,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033162,
+                    "Length": 409,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033161,
+                    "Length": 118,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033160,
+                    "Length": 337,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 637318,
+            "TeeSetRatingName": "Gold",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 5534,
+            "TotalMeters": 5060,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 73.9,
+                    "SlopeRating": 133,
+                    "BogeyRating": 98.6
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 36.7,
+                    "SlopeRating": 133,
+                    "BogeyRating": 49.1
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 37.2,
+                    "SlopeRating": 132,
+                    "BogeyRating": 49.5
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033124,
+                    "Length": 422,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033125,
+                    "Length": 360,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033126,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033127,
+                    "Length": 396,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033128,
+                    "Length": 530,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033129,
+                    "Length": 432,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033130,
+                    "Length": 160,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033131,
+                    "Length": 412,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033132,
+                    "Length": 482,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033133,
+                    "Length": 407,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033134,
+                    "Length": 511,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033135,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033136,
+                    "Length": 226,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033137,
+                    "Length": 401,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033138,
+                    "Length": 428,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033139,
+                    "Length": 492,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033140,
+                    "Length": 152,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033141,
+                    "Length": 430,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 637319,
+            "TeeSetRatingName": "Black",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 6805,
+            "TotalMeters": 6222,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 67.4,
+                    "SlopeRating": 116,
+                    "BogeyRating": 88.9
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 33.8,
+                    "SlopeRating": 112,
+                    "BogeyRating": 44.2
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 33.6,
+                    "SlopeRating": 119,
+                    "BogeyRating": 44.7
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033088,
+                    "Length": 318,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033089,
+                    "Length": 323,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033090,
+                    "Length": 117,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033091,
+                    "Length": 340,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033092,
+                    "Length": 443,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033093,
+                    "Length": 351,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033094,
+                    "Length": 118,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033095,
+                    "Length": 350,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033096,
+                    "Length": 420,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033097,
+                    "Length": 326,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033098,
+                    "Length": 410,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033099,
+                    "Length": 301,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033100,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033101,
+                    "Length": 329,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033102,
+                    "Length": 343,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033103,
+                    "Length": 409,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033104,
+                    "Length": 118,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033105,
+                    "Length": 337,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 637320,
+            "TeeSetRatingName": "Gold",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 5534,
+            "TotalMeters": 5060,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 65.6,
+                    "SlopeRating": 110,
+                    "BogeyRating": 85.9
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 32.8,
+                    "SlopeRating": 110,
+                    "BogeyRating": 43
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 32.8,
+                    "SlopeRating": 109,
+                    "BogeyRating": 42.9
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033142,
+                    "Length": 287,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033143,
+                    "Length": 272,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033144,
+                    "Length": 100,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033145,
+                    "Length": 312,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033146,
+                    "Length": 409,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033147,
+                    "Length": 313,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033148,
+                    "Length": 104,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033149,
+                    "Length": 323,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033150,
+                    "Length": 388,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033151,
+                    "Length": 293,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033152,
+                    "Length": 379,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033153,
+                    "Length": 293,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033154,
+                    "Length": 136,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033155,
+                    "Length": 308,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033156,
+                    "Length": 310,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033157,
+                    "Length": 377,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033158,
+                    "Length": 102,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033159,
+                    "Length": 308,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 637321,
+            "TeeSetRatingName": "Red",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 5014,
+            "TotalMeters": 4585,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 75.5,
+                    "SlopeRating": 131,
+                    "BogeyRating": 106.4
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 37.6,
+                    "SlopeRating": 132,
+                    "BogeyRating": 53.2
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 37.9,
+                    "SlopeRating": 130,
+                    "BogeyRating": 53.2
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033241,
+                    "Length": 358,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033242,
+                    "Length": 339,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033243,
+                    "Length": 150,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033172,
+                    "Length": 340,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033245,
+                    "Length": 488,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033174,
+                    "Length": 351,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033247,
+                    "Length": 135,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033176,
+                    "Length": 350,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033249,
+                    "Length": 455,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033240,
+                    "Length": 345,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033239,
+                    "Length": 477,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033238,
+                    "Length": 321,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033165,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033236,
+                    "Length": 375,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033163,
+                    "Length": 343,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033234,
+                    "Length": 459,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033233,
+                    "Length": 140,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033160,
+                    "Length": 337,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 637324,
+            "TeeSetRatingName": "White/Gold Combo",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 5944,
+            "TotalMeters": 5435,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 69.9,
+                    "SlopeRating": 123,
+                    "BogeyRating": 92.7
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 34.9,
+                    "SlopeRating": 119,
+                    "BogeyRating": 46
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 35,
+                    "SlopeRating": 126,
+                    "BogeyRating": 46.7
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033070,
+                    "Length": 358,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033071,
+                    "Length": 339,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033072,
+                    "Length": 150,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033091,
+                    "Length": 340,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033074,
+                    "Length": 488,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033093,
+                    "Length": 351,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033076,
+                    "Length": 135,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033095,
+                    "Length": 350,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033078,
+                    "Length": 455,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033079,
+                    "Length": 345,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033080,
+                    "Length": 477,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033081,
+                    "Length": 321,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033100,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033083,
+                    "Length": 375,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033102,
+                    "Length": 343,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033085,
+                    "Length": 459,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033086,
+                    "Length": 140,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033105,
+                    "Length": 337,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 637341,
+            "TeeSetRatingName": "White/Gold Combo",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 5944,
+            "TotalMeters": 5435,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 76.9,
+                    "SlopeRating": 134,
+                    "BogeyRating": 108.3
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 38.3,
+                    "SlopeRating": 136,
+                    "BogeyRating": 54.3
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 38.6,
+                    "SlopeRating": 131,
+                    "BogeyRating": 54
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033241,
+                    "Length": 358,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033242,
+                    "Length": 339,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033243,
+                    "Length": 150,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033244,
+                    "Length": 371,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033245,
+                    "Length": 488,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033246,
+                    "Length": 402,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033247,
+                    "Length": 135,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033248,
+                    "Length": 385,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033249,
+                    "Length": 455,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033240,
+                    "Length": 345,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033239,
+                    "Length": 477,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033238,
+                    "Length": 321,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033237,
+                    "Length": 198,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033236,
+                    "Length": 375,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033235,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033234,
+                    "Length": 459,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033233,
+                    "Length": 140,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033232,
+                    "Length": 380,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 637370,
+            "TeeSetRatingName": "White",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 6161,
+            "TotalMeters": 5634,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 80.1,
+                    "SlopeRating": 143,
+                    "BogeyRating": 113.7
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 39.9,
+                    "SlopeRating": 139,
+                    "BogeyRating": 56.3
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 40.2,
+                    "SlopeRating": 146,
+                    "BogeyRating": 57.4
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033259,
+                    "Length": 422,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033260,
+                    "Length": 360,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033261,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033262,
+                    "Length": 396,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033263,
+                    "Length": 530,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033264,
+                    "Length": 432,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033265,
+                    "Length": 160,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033266,
+                    "Length": 412,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033267,
+                    "Length": 482,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033258,
+                    "Length": 407,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033257,
+                    "Length": 511,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033256,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033255,
+                    "Length": 226,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033254,
+                    "Length": 401,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033253,
+                    "Length": 428,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033252,
+                    "Length": 492,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033251,
+                    "Length": 152,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033250,
+                    "Length": 430,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 637371,
+            "TeeSetRatingName": "Black",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 6805,
+            "TotalMeters": 6222,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 72.4,
+                    "SlopeRating": 130,
+                    "BogeyRating": 97.1
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 36.2,
+                    "SlopeRating": 130,
+                    "BogeyRating": 48.3
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 36.2,
+                    "SlopeRating": 131,
+                    "BogeyRating": 48.4
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033070,
+                    "Length": 358,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033125,
+                    "Length": 360,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033126,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033127,
+                    "Length": 396,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033128,
+                    "Length": 530,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033075,
+                    "Length": 402,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033130,
+                    "Length": 160,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033131,
+                    "Length": 412,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033132,
+                    "Length": 482,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033079,
+                    "Length": 345,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033134,
+                    "Length": 511,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033135,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033082,
+                    "Length": 198,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033137,
+                    "Length": 401,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033084,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033139,
+                    "Length": 492,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033140,
+                    "Length": 152,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033087,
+                    "Length": 380,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 637372,
+            "TeeSetRatingName": "Black/White Combo",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 6526,
+            "TotalMeters": 5967,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 79,
+                    "SlopeRating": 138,
+                    "BogeyRating": 111.5
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 39.5,
+                    "SlopeRating": 137,
+                    "BogeyRating": 55.7
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 39.5,
+                    "SlopeRating": 138,
+                    "BogeyRating": 55.8
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033241,
+                    "Length": 358,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033260,
+                    "Length": 360,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033261,
+                    "Length": 181,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033262,
+                    "Length": 396,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033263,
+                    "Length": 530,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033246,
+                    "Length": 402,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033265,
+                    "Length": 160,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033266,
+                    "Length": 412,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033267,
+                    "Length": 482,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033240,
+                    "Length": 345,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033257,
+                    "Length": 511,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033256,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033237,
+                    "Length": 198,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033254,
+                    "Length": 401,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033235,
+                    "Length": 383,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033252,
+                    "Length": 492,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033251,
+                    "Length": 152,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033232,
+                    "Length": 380,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 637373,
+            "TeeSetRatingName": "Black/White Combo",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 6526,
+            "TotalMeters": 5967,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 61.4,
+                    "SlopeRating": 103,
+                    "BogeyRating": 80.5
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 30.8,
+                    "SlopeRating": 102,
+                    "BogeyRating": 40.3
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 30.6,
+                    "SlopeRating": 103,
+                    "BogeyRating": 40.2
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 5001374,
+                    "Length": 192,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 5001375,
+                    "Length": 201,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 5001376,
+                    "Length": 100,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 5001377,
+                    "Length": 229,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 5001378,
+                    "Length": 340,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 5001379,
+                    "Length": 263,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 5001380,
+                    "Length": 84,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 5001381,
+                    "Length": 275,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 5001382,
+                    "Length": 331,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 5001383,
+                    "Length": 208,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 5001384,
+                    "Length": 326,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 5001385,
+                    "Length": 251,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 5001386,
+                    "Length": 104,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 5001387,
+                    "Length": 261,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 5001388,
+                    "Length": 248,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 5001389,
+                    "Length": 311,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 5001390,
+                    "Length": 102,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 5001391,
+                    "Length": 260,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 843155,
+            "TeeSetRatingName": "Blue",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 4086,
+            "TotalMeters": 3736,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": true,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 64.4,
+                    "SlopeRating": 107,
+                    "BogeyRating": 89.5
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 32,
+                    "SlopeRating": 103,
+                    "BogeyRating": 44.1
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 32.4,
+                    "SlopeRating": 110,
+                    "BogeyRating": 45.4
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 5001491,
+                    "Length": 192,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 5001492,
+                    "Length": 201,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 5001493,
+                    "Length": 100,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 5001494,
+                    "Length": 229,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 5001495,
+                    "Length": 340,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 5001496,
+                    "Length": 263,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 5001497,
+                    "Length": 84,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 5001498,
+                    "Length": 275,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 5001499,
+                    "Length": 331,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 5001490,
+                    "Length": 208,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 5001489,
+                    "Length": 326,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 5001488,
+                    "Length": 251,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 5001487,
+                    "Length": 104,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 5001486,
+                    "Length": 261,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 5001485,
+                    "Length": 248,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 5001484,
+                    "Length": 311,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 5001483,
+                    "Length": 102,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 5001482,
+                    "Length": 260,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 843156,
+            "TeeSetRatingName": "Blue",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 4086,
+            "TotalMeters": 3736,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 69.6,
+                    "SlopeRating": 113,
+                    "BogeyRating": 96.3
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 34.8,
+                    "SlopeRating": 112,
+                    "BogeyRating": 48
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 34.8,
+                    "SlopeRating": 114,
+                    "BogeyRating": 48.3
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033227,
+                    "Length": 287,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033222,
+                    "Length": 272,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033223,
+                    "Length": 100,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 4033224,
+                    "Length": 312,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033225,
+                    "Length": 409,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 4033226,
+                    "Length": 313,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033221,
+                    "Length": 104,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 4033220,
+                    "Length": 323,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033219,
+                    "Length": 388,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033214,
+                    "Length": 293,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033228,
+                    "Length": 379,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 4033229,
+                    "Length": 293,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033218,
+                    "Length": 136,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033217,
+                    "Length": 308,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 4033216,
+                    "Length": 310,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033215,
+                    "Length": 377,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033230,
+                    "Length": 102,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 4033231,
+                    "Length": 308,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 843181,
+            "TeeSetRatingName": "Red",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 5014,
+            "TotalMeters": 4585,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 64.2,
+                    "SlopeRating": 106,
+                    "BogeyRating": 83.1
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 32.2,
+                    "SlopeRating": 104,
+                    "BogeyRating": 41.8
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 32,
+                    "SlopeRating": 107,
+                    "BogeyRating": 41.9
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033142,
+                    "Length": 287,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033143,
+                    "Length": 272,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033144,
+                    "Length": 100,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 5001377,
+                    "Length": 229,
+                    "Par": 4,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033146,
+                    "Length": 409,
+                    "Par": 5,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 5001379,
+                    "Length": 263,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033148,
+                    "Length": 104,
+                    "Par": 3,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 5001381,
+                    "Length": 275,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033150,
+                    "Length": 388,
+                    "Par": 5,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033151,
+                    "Length": 293,
+                    "Par": 4,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033152,
+                    "Length": 379,
+                    "Par": 5,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 5001385,
+                    "Length": 251,
+                    "Par": 4,
+                    "Allocation": 6
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033154,
+                    "Length": 136,
+                    "Par": 3,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033155,
+                    "Length": 308,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 5001388,
+                    "Length": 248,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033157,
+                    "Length": 377,
+                    "Par": 5,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033158,
+                    "Length": 102,
+                    "Par": 3,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 5001391,
+                    "Length": 260,
+                    "Par": 4,
+                    "Allocation": 4
+                }
+            ],
+            "TeeSetRatingId": 893129,
+            "TeeSetRatingName": "Red/Blue Combo",
+            "Gender": "Male",
+            "HolesNumber": 18,
+            "TotalYardage": 4681,
+            "TotalMeters": 4280,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": true,
+            "EligibleSides": "All"
+        },
+        {
+            "Ratings": [
+                {
+                    "RatingType": "Total",
+                    "CourseRating": 67.7,
+                    "SlopeRating": 112,
+                    "BogeyRating": 94
+                },
+                {
+                    "RatingType": "Back",
+                    "CourseRating": 34,
+                    "SlopeRating": 113,
+                    "BogeyRating": 47.3
+                },
+                {
+                    "RatingType": "Front",
+                    "CourseRating": 33.7,
+                    "SlopeRating": 110,
+                    "BogeyRating": 46.7
+                }
+            ],
+            "Holes": [
+                {
+                    "Number": 1,
+                    "HoleId": 4033227,
+                    "Length": 287,
+                    "Par": 4,
+                    "Allocation": 11
+                },
+                {
+                    "Number": 2,
+                    "HoleId": 4033222,
+                    "Length": 272,
+                    "Par": 4,
+                    "Allocation": 5
+                },
+                {
+                    "Number": 3,
+                    "HoleId": 4033223,
+                    "Length": 100,
+                    "Par": 3,
+                    "Allocation": 17
+                },
+                {
+                    "Number": 4,
+                    "HoleId": 5001494,
+                    "Length": 229,
+                    "Par": 4,
+                    "Allocation": 7
+                },
+                {
+                    "Number": 5,
+                    "HoleId": 4033225,
+                    "Length": 409,
+                    "Par": 5,
+                    "Allocation": 9
+                },
+                {
+                    "Number": 6,
+                    "HoleId": 5001496,
+                    "Length": 263,
+                    "Par": 4,
+                    "Allocation": 1
+                },
+                {
+                    "Number": 7,
+                    "HoleId": 4033221,
+                    "Length": 104,
+                    "Par": 3,
+                    "Allocation": 15
+                },
+                {
+                    "Number": 8,
+                    "HoleId": 5001498,
+                    "Length": 275,
+                    "Par": 4,
+                    "Allocation": 3
+                },
+                {
+                    "Number": 9,
+                    "HoleId": 4033219,
+                    "Length": 388,
+                    "Par": 5,
+                    "Allocation": 13
+                },
+                {
+                    "Number": 10,
+                    "HoleId": 4033214,
+                    "Length": 293,
+                    "Par": 4,
+                    "Allocation": 10
+                },
+                {
+                    "Number": 11,
+                    "HoleId": 4033228,
+                    "Length": 379,
+                    "Par": 5,
+                    "Allocation": 16
+                },
+                {
+                    "Number": 12,
+                    "HoleId": 5001488,
+                    "Length": 251,
+                    "Par": 4,
+                    "Allocation": 4
+                },
+                {
+                    "Number": 13,
+                    "HoleId": 4033218,
+                    "Length": 136,
+                    "Par": 3,
+                    "Allocation": 14
+                },
+                {
+                    "Number": 14,
+                    "HoleId": 4033217,
+                    "Length": 308,
+                    "Par": 4,
+                    "Allocation": 8
+                },
+                {
+                    "Number": 15,
+                    "HoleId": 5001485,
+                    "Length": 248,
+                    "Par": 4,
+                    "Allocation": 2
+                },
+                {
+                    "Number": 16,
+                    "HoleId": 4033215,
+                    "Length": 377,
+                    "Par": 5,
+                    "Allocation": 12
+                },
+                {
+                    "Number": 17,
+                    "HoleId": 4033230,
+                    "Length": 102,
+                    "Par": 3,
+                    "Allocation": 18
+                },
+                {
+                    "Number": 18,
+                    "HoleId": 5001482,
+                    "Length": 260,
+                    "Par": 4,
+                    "Allocation": 6
+                }
+            ],
+            "TeeSetRatingId": 893132,
+            "TeeSetRatingName": "Red/Blue Combo",
+            "Gender": "Female",
+            "HolesNumber": 18,
+            "TotalYardage": 4681,
+            "TotalMeters": 4280,
+            "LegacyCRPTeeId": null,
+            "StrokeAllocation": true,
+            "TotalPar": 72,
+            "IsShorter": false,
+            "EligibleSides": "All"
+        }
+    ],
+    "CourseId": 4262,
+    "CourseName": "Nutcracker Golf Club",
+    "CourseStatus": "Active",
+    "CourseNumber": null,
+    "CourseCity": "Granbury",
+    "CourseState": "US-TX"
+}
