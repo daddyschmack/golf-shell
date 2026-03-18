@@ -1,7 +1,7 @@
 [
   {
     "name": "John Jaeckle Sr",
-    "handicap": 16
+    "handicap": 13
   },
   {
     "name": "John Jaeckle Jr,",
@@ -9,15 +9,15 @@
   },
   {
     "name": "Larry Swift",
-    "handicap": 10
+    "handicap": 9
   },
   {
     "name": "Jim Bryan",
-    "handicap": 4
+    "handicap": 5
   },
   {
-    "name": "Ralph ",
-    "handicap": 11
+    "name": "Ralph",
+    "handicap": 9
   },
   {
     "name": "Carmine",
@@ -25,14 +25,18 @@
   },
   {
     "name": "Jim Dodson",
-    "handicap": 13
+    "handicap": 15
   },
   {
     "name": "Paul Bueme",
-    "handicap": 8
+    "handicap": 9
   },
   {
     "name": "Frank Andrews",
-    "handicap": 8
+    "handicap": 11
+  },
+  {
+    "name": "Lee Hagen",
+    "handicap": 9
   }
 ]

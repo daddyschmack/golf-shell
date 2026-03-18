@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+/src/assets/player_data/player-list.json
 
 # Node
 /node_modules
@@ -41,3 +42,6 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Angular environments
+/src/environments/environment*.ts
