@@ -1,0 +1,16 @@
+{
+  "name": "shared-data",
+  "version": "0.0.1",
+  "main": "src/public-api.ts",
+  "types": "src/public-api.ts",
+  "peerDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "@angular/fire": "^21.0.0-rc.0",
+    "rxjs": "~7.8.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
