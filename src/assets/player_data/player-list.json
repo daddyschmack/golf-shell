@@ -5,18 +5,18 @@
   },
   {
     "name": "John Jaeckle Jr,",
-    "handicap": 13
+    "handicap": 12
   },
   {
     "name": "Larry Swift",
-    "handicap": 9
+    "handicap": 7
   },
   {
     "name": "Jim Bryan",
-    "handicap": 5
+    "handicap": 4
   },
   {
-    "name": "Ralph",
+    "name": "Ralph Lozapone",
     "handicap": 9
   },
   {
@@ -25,18 +25,45 @@
   },
   {
     "name": "Jim Dodson",
-    "handicap": 15
+    "handicap": 13
   },
   {
     "name": "Paul Bueme",
-    "handicap": 9
+    "handicap": 8
   },
   {
     "name": "Frank Andrews",
-    "handicap": 11
+    "handicap": 8
   },
   {
     "name": "Lee Hagen",
-    "handicap": 9
+    "handicap": 8
+  },{
+  "name": "Greg Lowry",
+    "handicap": 6
+  },
+  {
+    "name": "Phil Taylor",
+    "handicap": 5
+  },
+  {
+    "name": "Jeff Dodson",
+    "handicap": 0
+  },
+   {
+    "name": "Tim Sexton",
+    "handicap": 15
+  },
+    {
+    "name": "Ross Carnes",
+    "handicap": 11
+  },
+  {
+    "name": "Rob Kilmer",
+    "handicap": 6
+  },
+  {
+    "name":  "Fred Holmes",
+    "handicap": 7
   }
 ]
