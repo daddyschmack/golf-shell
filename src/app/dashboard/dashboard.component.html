@@ -5,11 +5,57 @@
     <div class="card">
       <h2>Welcome back, {{ u.displayName }}!</h2>
       <p>Handicap: {{ u.handicap || 'Not set' }}</p>
-      
+
       <a routerLink="/play" class="btn-primary">⛳ Start New Round</a>
     </div>
   } @else {
     <p>Please log in to view your stats.</p>
     <button (click)="userService.login()">Login</button>
   }
+  <hr>
+  <main class="card-grid">
+    <!-- Track a Round -->
+    <div class="card" routerLink="/play">
+      <div class="card-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
+        </svg>
+      </div>
+      <h2>Track a Round</h2>
+      <p>Start a new round and keep score for your group.</p>
+    </div>
+
+    <!-- Set up Teams -->
+    <div class="card" routerLink="/teams">
+      <div class="card-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 00-9.094-9.094H7.414A9.094 9.094 0 0018 18.72zM12 12.72A4.5 4.5 0 007.5 8.22v-.002A4.5 4.5 0 0012 12.72zM18.75 11.25a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+        </svg>
+      </div>
+      <h2>Set up Golf Teams</h2>
+      <p>Balance teams by handicap before your round starts.</p>
+    </div>
+
+    <!-- Leaderboard -->
+    <div class="card" routerLink="/leaderboard">
+      <div class="card-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.504-1.125-1.125-1.125h-6.75c-.621 0-1.125.504-1.125 1.125V18.75M10.5 6.75h3m-3 0v-3.375a1.125 1.125 0 011.125-1.125h.75a1.125 1.125 0 011.125 1.125V6.75" />
+        </svg>
+      </div>
+      <h2>View Leaderboard</h2>
+      <p>See live scores and standings for ongoing games.</p>
+    </div>
+
+    <!-- Future Feature: Set up a Game -->
+    <div class="card disabled">
+      <div class="card-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+        </svg>
+      </div>
+      <h2>Set up a Game</h2>
+      <p>Create a new game and invite players (Coming Soon).</p>
+    </div>
+  </main>
 </div>

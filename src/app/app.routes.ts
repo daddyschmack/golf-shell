@@ -6,12 +6,21 @@ export const routes: Routes = [
   {
     path: '',
     component: DashboardComponent,
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: 'play',
-    loadComponent: () =>
-      loadRemoteModule('mfe-scorecard', './Component')
-        .then(m => m.App)
-  }
+    // Assumes mfe-scorecard exposes a component from './Component'
+    loadComponent: () => import('mfe-scorecard/Component').then((m) => m.App),
+  },
+  {
+    path: 'teams',
+    // Assumes mfe-teamManager exposes a component from './Component'
+    loadComponent: () => import('mfe-teamManager/Component').then((m) => m.App),
+  },
+  {
+    path: 'leaderboard',
+    // Assumes mfe-scoreboard exposes a component from './Component'
+    loadComponent: () => import('mfe-scoreboard/Component').then((m) => m.App),
+  },
 ];

@@ -6,7 +6,6 @@ module.exports = withNativeFederation({
 
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
-    'shared-data': { singleton: true, strictVersion: false }
   },
 
   skip: [
