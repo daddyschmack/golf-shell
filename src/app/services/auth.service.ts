@@ -18,6 +18,7 @@ import {
   collection,
   doc,
   addDoc,
+  setDoc,
   updateDoc,
   deleteDoc,
   collectionData,
@@ -44,8 +45,15 @@ export class AuthService {
     return signInWithEmailAndPassword(this.auth, email, password);
   }
 
- register(email: string, password: string){
-    return createUserWithEmailAndPassword(this.auth, email, password)
+ async register(registrationForm:any){
+    // 1 create the user in firebase auth
+   const {email, password} = registrationForm
+    const userCreds = await createUserWithEmailAndPassword(this.auth, email, password);
+    const user = userCreds.user
+
+   // 2. create the profield useing ther new ID and document id
+   const docRef = doc(this.firestore, 'users', user.uid);
+    await setDoc(docRef, { email: user.email, uid: user.uid });
   }
 
   syncUserInfo(){

@@ -10,6 +10,30 @@
       "**/.*",
       "**/node_modules/**"
     ],
+  "headers": [
+    {
+      "source": "**/*.@(js|json|css|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "**/remoteEntry.json",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
+  ],
     "rewrites": [
       {
         "source": "**",

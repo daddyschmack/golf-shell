@@ -89,11 +89,17 @@ export interface StatTotal {
 }
 
 
+export interface GHIN_Info{
+  ghin?: number;
+  handicapIndex?: number;
+  lastUpdated?: Date;
+}
 
 export interface PlayerInfo {
+  id?: string;
   name: string;
   handicap?: number;
-  GHIN?: number;
+  GHIN?: GHIN_Info;
 }
 export interface User {
   uid?: string;

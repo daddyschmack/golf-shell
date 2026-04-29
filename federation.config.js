@@ -5,8 +5,11 @@ module.exports = withNativeFederation({
 
 
   shared: {
-    ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
-    'shared-data': { singleton: true, strictVersion: false }
+    ...shareAll({ singleton: true, strictVersion: false, requiredVersion: 'auto' }),
+    'shared-data': { singleton: true, strictVersion: false },
+    '@angular/fire/app': { singleton: true, strictVersion: false },
+    '@angular/fire/auth': { singleton: true, strictVersion: false },
+    '@angular/fire/firestore': { singleton: true, strictVersion: false }
   },
 
   skip: [

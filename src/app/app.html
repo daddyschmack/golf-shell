@@ -1,5 +1,55 @@
 <div class="default-style">
-  <h1>Golf Shell (Host)</h1>
+  <h1>
+    <a routerLink="/" arai-role="link" aria-label="go to the home page">Golf Scorekeeper </a>
+  </h1>
+  @if(this.router.url !== '/'){
+  <nav>
+    <ul>
+      <li>
+        <a routerLink="/" routerLinkActive="active">Home</a>
+      </li>
+      <li>
+        <a routerLink="/play" routerLinkActive="active">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                 stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"/>
+            </svg>
+          </div>
+          Play</a>
+      </li>
+      <li>
+        <a routerLink="/leaderboard" routerLinkActive="active">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.504-1.125-1.125-1.125h-6.75c-.621 0-1.125.504-1.125 1.125V18.75M10.5 6.75h3m-3 0v-3.375a1.125 1.125 0 011.125-1.125h.75a1.125 1.125 0 011.125 1.125V6.75" />
+        </svg>
+          Leaderboard</a>
+      </li>
+      <li>
+        <a routerLink="/profile" routerLinkActive="active">
+
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 18.75a7.5 7.5 0 0115 0v1.125" />
+</svg>
+          Profile</a>
+      </li>
+      <li>
+        <a routerLink="/teams" routerLinkActive="active">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+                 stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 00-9.094-9.094H7.414A9.094 9.094 0 0018 18.72zM12 12.72A4.5 4.5 0 007.5 8.22v-.002A4.5 4.5 0 0012 12.72zM18.75 11.25a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
+            </svg>
+          </div> Teams</a>
+      </li>
+    </ul>
+
+
+  </nav>
+  }
 
   @if (userService.currentUser(); as user) {
     <div class="not-logged-in-container" style="background: #e0f7fa;">
@@ -9,9 +59,8 @@
       <hr>
 
       <h4>Your Profile (Firestore Data)</h4>
-      <pre>{{ userService.userProfile() | json }}</pre>
-
-      <button (click)="updateHandicap()">Set Handicap to 10 (Test Write)</button>
+      <!-- USE THE NEW SIGNAL HERE -->
+      <h4>Your Handicap: {{ handicap() }}</h4>
     </div>
   } @else {
     <div class="not-logged-in-container">

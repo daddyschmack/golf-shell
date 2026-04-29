@@ -11,11 +11,6 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
-    "paths": {
-      "shared-data": [
-        "./projects/shared-data/src/public-api.ts"
-      ]
-    },
     "importHelpers": true,
     "target": "ES2022",
     "module": "preserve"

@@ -19,7 +19,7 @@ export const MOCK_PLAYER_LIST: Partial<PlayerInfo>[] = [
     handicap: 6
   },
   {
-    name: "Dodson's Son",
+    name: "Jeff Dodson",
     handicap: 0
   }
 ];

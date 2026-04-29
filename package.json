@@ -36,7 +36,8 @@
     "es-module-shims": "^1.5.12",
     "firebase": "^12.7.0",
     "rxjs": "~7.8.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "shared-data": "file:dist/shared-data"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^21.2.4",

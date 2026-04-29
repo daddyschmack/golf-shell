@@ -1,16 +1,16 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit, Signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { UserProfileService } from 'shared-data';
+import { UserProfileService, UserProfile } from 'shared-data';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
   imports: [CommonModule, RouterLink],
   templateUrl: './dashboard.component.html',
-  styles: []
+  styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {
   userService = inject(UserProfileService);
-  user = this.userService.userProfile;
+  user: Signal<UserProfile | null> = this.userService.userProfile;
 }
