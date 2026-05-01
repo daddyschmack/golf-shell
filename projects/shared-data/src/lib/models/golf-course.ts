@@ -24,6 +24,19 @@ export interface Course {
   tee: TeeBox;
   unit: "Yards" | "Meter";
 }
+
+export interface SimpleRound {
+  id: string;
+  playerId: string;
+  playerName: string;
+  handicap: number; // snapshot at time of round
+  scores: number[]; // array of 18 scores
+  totalScore: number;
+  roundDate: Date;
+  courseId?: string;
+  teeBox?:string;
+}
+
 export interface GolfRound{
   golfer: User;
   golfCourse?: Partial<GolfCourse>; // name id
