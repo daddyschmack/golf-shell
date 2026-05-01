@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "golf-stats-ed7cb"
-  }
+  },
+  "targets": {
+    "golf-stats-ed7cb": {
+      "hosting": {
+        "golf-home": [
+          "golf-stats-ed7cb"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy:latest": "ng build --configuration production && npx firebase deploy  --only hosting:golf-home"
   },
   "prettier": {
     "printWidth": 100,

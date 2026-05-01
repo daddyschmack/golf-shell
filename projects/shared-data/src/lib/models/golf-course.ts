@@ -100,6 +100,8 @@ export interface PlayerInfo {
   name: string;
   handicap?: number;
   GHIN?: GHIN_Info;
+  email?: string;
+  uid?: string;
 }
 export interface User {
   uid?: string;
@@ -109,6 +111,18 @@ export interface User {
   photoURL: string;
   emailVerified: boolean;
   playerInfo?: PlayerInfo;
+}
+
+export interface UserProfile {
+  uid: string;
+  displayName?: string;
+  email?: string;
+  handicap?: number;
+  defaultTees?: string;
+  GHIN_Number?: any;
+  HandicapIndex?: number;
+  playerInfo?: PlayerInfo;
+  password?: string;
 }
 
 export interface GolfTeam {

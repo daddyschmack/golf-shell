@@ -49,7 +49,64 @@
   letter-spacing: -0.04em;
 }
 
+
+
+.router-outlet-container {
+  margin-top: 20px;
+  border: 1px solid rgba(20, 83, 45, 0.12);
+  padding: .5rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Pushes nav left, spacer right, title center */
+  align-items: flex-start;
+
+  h1 {
+    order:1;
+    margin: 0;
+    flex: 1;          /* Takes up available space */
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  nav, .header-spacer {
+    padding:0;
+    margin-top:.5rem;
+    order: 2;
+    flex: 0 0 50px;   /* Gives the left and right sides equal fixed width */
+
+  }
+  .header-spacer{
+    display: none;
+  }
+  @media (max-width: 820px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+      order:2;
+    }
+    nav{
+      order:1;
+      background: transparent;
+    }
+    .header-spacer{
+      order: 3;
+      display: block;
+    }
+
+  }
+
+}
 nav {
+  /* Your Original Styles */
+
   display: flex;
   align-items: center;
   padding: 10px;
@@ -59,6 +116,25 @@ nav {
   background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
   backdrop-filter: blur(14px);
+  position: relative; /* Required for the dropdown positioning */
+
+  .menu-toggle { display: none; }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    padding: 0 15px;
+
+    span {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #31513d;
+      transition: 0.3s;
+    }
+  }
 
   ul {
     display: flex;
@@ -72,25 +148,18 @@ nav {
     width: 100%;
   }
 
-  li {
-    display: flex;
-  }
+  li { display: flex; }
 
   a {
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
-    min-height: 42px;
-    padding: 0.6rem 1rem;
+    padding: 0.25rem .5rem;
     border-radius: 999px;
     color: #31513d;
     text-decoration: none;
     font-weight: 700;
-    transition:
-      transform 160ms ease,
-      background-color 160ms ease,
-      color 160ms ease,
-      box-shadow 160ms ease;
+    transition: transform 160ms ease, background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
 
     &:hover {
       color: #14532d;
@@ -105,37 +174,42 @@ nav {
     }
   }
 
-  .card-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
+  /* --- Mobile & iPad Mini Breakpoint --- */
+  @media (max-width: 820px) {
+    width: fit-content;
+    margin-left: auto;
+    border-radius: 20px; /* Squares off the main pill slightly for mobile */
 
-  svg {
-    flex: 0 0 auto;
-  }
-}
-
-.router-outlet-container {
-  margin-top: 20px;
-  border: 1px solid rgba(20, 83, 45, 0.12);
-  padding: .5rem;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.72);
-  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
-}
-
-@media (max-width: 640px) {
-  nav {
-    border-radius: 24px;
+    .hamburger { display: flex; }
 
     ul {
-      justify-content: center;
+      display: none; /* Hidden until clicked */
+      position: absolute;
+      top: 1rem;
+      width: fit-content;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      border: 1px solid rgba(20, 83, 45, 0.12);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+      backdrop-filter: blur(20px);
     }
 
-    a {
-      padding: 0.55rem 0.85rem;
-      font-size: 0.95rem;
+    /* Toggle visibility */
+    .menu-toggle:checked ~ ul {
+      display: flex;
+    }
+
+    /* Animate Hamburger to X */
+    .menu-toggle:checked ~ .hamburger {
+      span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+      span:nth-child(2) { opacity: 0; }
+      span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
     }
   }
 }
+
