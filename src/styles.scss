@@ -126,3 +126,18 @@
   background-color: #303030;
   opacity: 8%;
 }
+.dark-button{
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 16px;
+    &:disabled {
+    background-color: #cccccc; /* Make it look greyed out */
+    color: #888888;            /* Dim the text */
+    cursor: not-allowed;       /* Give it the 'banned' mouse cursor */
+    opacity: 0.6;              /* Make it slightly see-through */
+    pointer-events: none;      /* Extra safety to prevent hover effects */
+  }
+}

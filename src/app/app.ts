@@ -1,12 +1,12 @@
 import { Component, computed, effect, inject, signal } from '@angular/core';
-import { RouterOutlet, Router, RouterLink } from '@angular/router';
+import { RouterOutlet, Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { UserProfileService } from 'shared-data';
 
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive],
   standalone: true,
   templateUrl: './app.html',
   styleUrl: './app.scss'

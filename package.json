@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy:latest": "ng build --configuration production && npx firebase deploy  --only hosting:golf-home"
+    "deploy:latest": "ng build --configuration production && npx firebase deploy --only hosting:golf-home"
   },
   "prettier": {
     "printWidth": 100,
@@ -37,8 +37,8 @@
     "es-module-shims": "^1.5.12",
     "firebase": "^12.7.0",
     "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
-    "shared-data": "file:dist/shared-data"
+    "shared-data": "file:dist/shared-data",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^21.2.4",
@@ -47,7 +47,7 @@
     "@angular/compiler-cli": "^21.2.6",
     "jsdom": "^27.1.0",
     "ng-packagr": "^21.0.0",
-    "typescript": "~5.9.2",
+    "typescript": "^6.0.3",
     "vitest": "^4.0.8"
   }
 }

@@ -27,6 +27,9 @@ export interface Course {
 
 export interface SimpleRound {
   id: string;
+  gameId: string;
+  teamId: string;
+  isScorekeeper: boolean;
   playerId: string;
   playerName: string;
   handicap: number; // snapshot at time of round
@@ -110,7 +113,8 @@ export interface GHIN_Info{
 
 export interface PlayerInfo {
   id?: string;
-  name: string;
+  displayName?: string;
+  name?: string;
   handicap?: number;
   GHIN?: GHIN_Info;
   email?: string;

@@ -1,7 +1,5 @@
 <div class="default-style">
   <header class="main-header">
-
-    @if (this.router.url !== '/') {
       <nav>
         <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
         <label for="menu-toggle" class="hamburger">
@@ -10,7 +8,7 @@
           <span></span>
         </label>
         <ul>
-          <li><a routerLink="/" routerLinkActive="active">
+          <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
             <div class="card-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
                    stroke-width="1.5" stroke="currentColor">
@@ -68,7 +66,7 @@
           </li>
         </ul>
       </nav>
-    }
+
       <h1>
     <a routerLink="/" arai-role="link" aria-label="go to the home page">Golf Scorekeeper </a>
   </h1>
@@ -76,15 +74,10 @@
   </header>
 
   @if (userService.currentUser(); as user) {
-    <div class="not-logged-in-container" style="background: #e0f7fa;">
+    <div class="logged-in-container" >
       <h3>Welcome, {{ user.displayName }}!</h3>
-      <button (click)="userService.logout()">Logout</button>
-
-      <hr>
-
-      <h4>Your Profile (Firestore Data)</h4>
-      <!-- USE THE NEW SIGNAL HERE -->
       <h4>Your Handicap: {{ handicap() }}</h4>
+      <button (click)="userService.logout()">Logout</button>
     </div>
   } @else {
     <div class="not-logged-in-container">

@@ -16,6 +16,13 @@ export const routes: Routes = [
         .then(m => m.App)
   },
   {
+    path: 'scorecard',
+    loadComponent: () =>
+      loadRemoteModule('mfe-scorecard', './Component')
+        .then(m => m.App)
+  },
+
+  {
     path: 'profile',
     loadComponent: () =>
       loadRemoteModule('mfe-profile', './Component')

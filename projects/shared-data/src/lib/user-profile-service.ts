@@ -1,10 +1,20 @@
 import { inject, Injectable } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { collection, collectionData, doc, docData, Firestore, setDoc, getDoc, getDocs } from '@angular/fire/firestore';
+import {
+  collection,
+  collectionData,
+  doc,
+  docData,
+  Firestore,
+  setDoc,
+  getDoc,
+  getDocs,
+  addDoc, writeBatch
+} from '@angular/fire/firestore';
 import { Auth, signInWithPopup, signOut, user } from '@angular/fire/auth';
 import { GoogleAuthProvider } from 'firebase/auth';
 import { map, Observable, of, switchMap } from 'rxjs';
-import { GHIN_Info, UserProfile } from './models/golf-course';
+import { GHIN_Info, PlayerInfo, SimpleRound, UserProfile } from './models/golf-course';
 
 
 
@@ -48,9 +58,9 @@ export class UserProfileService {
     const userDoc = doc(this.firestore, `users/${u.uid}`);
     await setDoc(userDoc, data, {merge: true});
   }
-  getAllUser(): Observable<UserProfile[]>{
+  getAllUser<T>(useDummy?:boolean): Observable<T[]>{
     const userRef = collection(this.firestore,'users');
-    return collectionData(userRef, {idField: 'uid'}) as Observable<UserProfile[]>;
+    return collectionData(userRef, {idField: 'uid'}) as Observable<T[]>;
   }
 
   async migrateOldProfile() {
@@ -66,6 +76,13 @@ export class UserProfileService {
     }
   }
 
+  async importUsers(userList: Partial<UserProfile>[]){
+    for (const user of userList){
+      const userDoc = doc(this.firestore, `users/${user.uid}`);
+      await setDoc(userDoc, user, { merge: true });
+
+    }
+  }
   async seedDummyUsers() {
     const dummyUsers = [
       { uid: 'dummy-1', displayName: 'Tiger Woods', email: 'tiger@example.com', handicap: 2 },
@@ -78,6 +95,36 @@ export class UserProfileService {
       await setDoc(userDoc, dummyUser, { merge: true });
     }
   }
+
+   async batchImportUsers(users: PlayerInfo[], merge: boolean = true): Promise<void> {
+    if (!users || users.length === 0) {
+      console.warn('No users provided for batch import.');
+      return;
+    }
+
+    const batch = writeBatch(this.firestore); // Get a new write batch
+
+    for (const userData of users) {
+      if (!userData.uid) {
+        console.error('User data missing UID for batch import:', userData);
+        continue; // Skip this user or handle the error as appropriate
+      }
+
+      // NO NEED TO CAST TO DocumentReference
+      const userDocRef = doc(this.firestore, `users/${userData.uid}`);
+
+      batch.set(userDocRef, userData, { merge });
+    }
+
+    try {
+      await batch.commit(); // Commit the batch
+      console.log(`Successfully imported ${users.length} users.`);
+    } catch (error) {
+      console.error('Error during batch user import:', error);
+      throw error; // Re-throw to allow calling component to handle
+    }
+  }
+
 
   async migrateAllUsers() {
     console.log('Starting mass migration from Users to users...');
@@ -103,5 +150,14 @@ export class UserProfileService {
     console.log("we would look this up, and will eventually")
    }
 
+   async publishRounds(rounds: SimpleRound[]): Promise<void> {
+    const roundCollection = collection(this.firestore, 'Rounds');
+    const batch: any[] = [];
+    for (const round of rounds){
+      batch.push(addDoc(roundCollection, round))
+    }
+    await Promise.all(batch);
+    console.log("Rounds Published");
+   }
 
 }
